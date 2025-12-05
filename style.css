@@ -1,0 +1,76 @@
+body {
+  background: #293a1e;
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 26px;
+  font-weight: bold;
+  color: #aac857;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px 7px #3336;
+}
+
+.desc {
+  margin-bottom: 7px;
+  font-size: 1em;
+  color: #e3eaae;
+  margin-top: 3px;
+}
+
+#game {
+  margin: 0 auto;
+  display: inline-block;
+  background: #44541a;
+  padding: 18px 18px 9px 18px;
+  border-radius: 20px;
+  box-shadow: 0 2px 10px #1116;
+}
+
+#canvas {
+  background: #fefdcb;
+  display: block;
+  margin: auto;
+  border: 3px solid #917a43;
+  border-radius: 15px;
+  margin-bottom: 8px;
+  box-shadow: 1px 1px 9px #0004;
+}
+
+#stats {
+  font-size: 1.07em;
+  margin-bottom: 5px;
+  letter-spacing: 1px; 
+}
+
+#info {
+  min-height: 28px;
+  color: #fedc8f;
+  font-weight: bold;
+  font-size: 1.04em;
+  text-shadow: 1px 1px 8px #6a8234aa;
+}
+
+#restart {
+  margin-top: 5px;
+  font-size: 15px;
+  background: #225b5a;
+  color: #fff;
+  padding: 8px 22px;
+  border-radius: 18px;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  transition: .13s;
+}
+#restart:hover {
+  background: #eac44b;
+  color: #21291a;
+}
+
+@media (max-width:440px) {
+  #canvas { width: 280px; height: 280px;}
+  #game {padding: 5px; border-radius: 11px;}
+}
