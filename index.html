@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Survival dari Rusa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Survival dari Rusa</h1>
+  <div class="desc">
+    Kontrol: WASD / panah<br>
+    Hindari rusa (coklat). Di level 5 ke atas, rusanya bisa berubah jadi manusia (merah)!<br>
+    Bertahan hidup sampai waktu habis untuk naik level. <br>
+    Level Maksimal: 10.
+  </div>
+  <div id="game">
+    <canvas id="canvas" width="400" height="400"></canvas>
+    <div id="stats">
+      <span>Level: <span id="level">1</span></span>&nbsp;&nbsp;
+      <span>Sisa Waktu: <span id="timer">10</span>s</span>
+    </div>
+    <div id="info"></div>
+    <button id="restart">Restart</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
